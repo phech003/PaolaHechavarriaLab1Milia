@@ -44,7 +44,7 @@ public class Milia_Rover implements SelfCheckCapable {
 
 	public void receive_commands() {
 		// TODO Auto-generated method stub
-		System.out.println("Receiving commands activated and commands are ready to be received");
+		System.out.println("Commands are ready to be received and received commands from Satellite");
 		System.out.println("Receiving commands");
 		mybrain.check_system_health();
 		myleg.auto_roam();

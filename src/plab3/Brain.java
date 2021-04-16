@@ -35,14 +35,14 @@ public class Brain implements SelfCheckCapable {
 
 	public void check_system_health() {
 		// TODO Auto-generated method stub
-		System.out.println("Health Check performed and results stored as report");
+		System.out.println("Checking of System Health performed and results stored for final report");
 		
 		
 	}
 
 	public void store() {
 		// TODO Auto-generated method stub
-		System.out.println("All data storedand Days report ready to be transmitted to Satellite");
+		System.out.println("All data stored and report ready to be received by Rover for transmission");
 		Satellite mysatellite = new Satellite();
 		
 	    mysatellite.transmitdata();

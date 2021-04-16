@@ -41,22 +41,22 @@ public class Leg implements SelfCheckCapable {
 
 	public void auto_roam() {
 		// TODO Auto-generated method stub
-		System.out.println("auto roam ");
+		System.out.println("Auto_roam begins");
 		mylasersensor.sense_objects();
 	}
 
 
 	public void detectobstacle() {
 		// TODO Auto-generated method stub
-		System.out.println("detects obstacle and Brakes");
+		System.out.println("Detects obstacle in path and Brakes");
 	}
 
 
 	public void dectectpathway() {
 		// TODO Auto-generated method stub
-		System.out.println("Trying new path");
-	    System.out.println("Resuming auto_roam");
-	    System.out.println("stop auto roam and perform other functions");
+		System.out.println("Detects new path");
+	    System.out.println("Resumes auto_roam");
+	    System.out.println("Stop auto roam and perform camera functions");
 	}
 
 }

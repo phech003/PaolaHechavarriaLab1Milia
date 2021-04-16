@@ -36,12 +36,12 @@ public class Satellite implements SelfCheckCapable {
 
 	public void transmit_command() {
 		// TODO Auto-generated method stub
-		System.out.println("Commands received from remote control and are ready to be transmitted to MILIA ROVER");
+		System.out.println("Satellite receives command from remote control and is ready to go to Milia Rover");
 		mymiliarover.receive_commands();
 	}
 	public void transmitdata() {
 		// TODO Auto-generated method stub
-		System.out.println("Data reached satellite and ready to be sent to Earth remote control");
+		System.out.println("Data reached satellite and ready to be sent to remote control");
 		Remote_Control myremotecontrol = new Remote_Control();
 		myremotecontrol.transmitdata_nasa();
 	}

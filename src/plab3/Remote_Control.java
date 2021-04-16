@@ -38,13 +38,13 @@ public Remote_Control()
 
 	public void Send_Command() {
 		// TODO Auto-generated method stub
-		System.out.println("commands recevived from Nasa and ready to be transmitted to Mars Satellite");
+		System.out.println("NASA sends commands to remote and is ready to be transmitted to Satellite");
 		mysatellite.transmit_command();
 	}
 
 	public void transmitdata_nasa() {
 		// TODO Auto-generated method stub
-		System.out.println("reporting data to nasa and end of communication");
+		System.out.println("Data recevied by NASA and end of communication");
 	}
 
 }

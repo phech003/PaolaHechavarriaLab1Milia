@@ -39,7 +39,7 @@ public class Milia_Rover implements SelfCheckCapable {
 	@Override
 	public boolean runSelfCheck() {
 		// TODO Auto-generated method stub
-		return SelfCheckUtils.checkComponents(this);
+		return SelfCheckUtils.checkComponents(this,mybrain,mycam,myleg);
 	}
 
 	public void receive_commands() {

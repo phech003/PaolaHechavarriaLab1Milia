@@ -47,9 +47,17 @@ public class NASA implements SelfCheckCapable {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-	  
+		Milia_Rover mymiliarover = new Milia_Rover();
+	    mymiliarover.runSelfCheck();
+	    
 	    Remote_Control myremotecontrol = new Remote_Control();
-	    myremotecontrol.Send_Command();
+	    myremotecontrol.runSelfCheck();
+	     
+	     
+	     NASA mynasa = new NASA();
+		 mynasa.runSelfCheck(); 
+		    
+		 myremotecontrol.Send_Command();
 	    
 	}
 

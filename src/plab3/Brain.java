@@ -36,7 +36,8 @@ public class Brain implements SelfCheckCapable {
 	public void check_system_health() {
 		// TODO Auto-generated method stub
 		System.out.println("Checking of System Health performed and results stored for final report");
-		
+		/*The function is for Brain to perform system checks and then whether its pass 
+		 * or fail it saves information for report */
 		
 	}
 

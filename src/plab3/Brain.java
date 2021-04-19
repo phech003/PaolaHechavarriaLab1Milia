@@ -44,6 +44,8 @@ public class Brain implements SelfCheckCapable {
 	public void store() {
 		// TODO Auto-generated method stub
 		System.out.println("All data stored and report ready to be received by Rover for transmission");
+		/*The function here for Brain is that all the data collected and reports made are stored 
+		 * into the memory so then it is ready for the Rover to transmit back to NASA */
 		Satellite mysatellite = new Satellite();
 		
 	    mysatellite.transmitdata();

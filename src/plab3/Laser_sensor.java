@@ -34,6 +34,8 @@ public class Laser_sensor implements SelfCheckCapable {
 	public void sense_objects() {
 		// TODO Auto-generated method stub
 		System.out.println("Sensors activiated");
+		/*This function is the laser sensors to be turned on in order for the Rover 
+		 * and legs to know if there is an obstacle.*/
 		
 		Leg myleg = new Leg();
 		myleg.detectobstacle();
